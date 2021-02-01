@@ -12,16 +12,21 @@ class Main {
   System.out.println("What is your birth month?");
   int birthYear = scan.nextInt();
  
-  int age = getAge(birthYear, currentYear);
+  int age = getLove(birthYear, currentYear);
 // this takes a qoute and puts into an output 
-  System.out.println(greeting(name));
+  
   System.out.println("You enounterd true love in year was I right?" + age);
   
-  
+  ;
 
  }
 
 
   //This concpecpt makes sure that the person gets their couple 
- 
+ static int getLove(int birthMonth, int currentYear)
+ {
+ int love = birthMonth - currentYear;
+ return love;
+ }
+  
 }
