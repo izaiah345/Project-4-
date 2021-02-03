@@ -20,7 +20,7 @@ import java.util.Scanner;
   
   System.out.println("You enounterd true love in year was I right?" + age);
   
- thank();
+ thank(name);
 
  }
 
@@ -33,7 +33,9 @@ import java.util.Scanner;
  }
   
 
-   static void thank(){
-    System.out.print("Thank you for trying out my love guesser app");
+   static String thank(String name){
+   String you = "Thank you for trying out my love guesser app! " + name;
+   return you; 
+   
   } 
 }
