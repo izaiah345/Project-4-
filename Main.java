@@ -19,7 +19,7 @@ import java.util.Scanner;
   int age = getLove(birthYear, currentYear);
   
   System.out.println("You enounterd true love in year was I right?" + age);
-  
+// Thank is a return type that gives back a thank you.
  thank(name);
 
  }
@@ -32,7 +32,7 @@ import java.util.Scanner;
  return love;
  }
   
-
+// This returns my thank you from within my code
    static String thank(String name){
    String you = "Thank you for trying out my love guesser app! " + name;
    return you; 
