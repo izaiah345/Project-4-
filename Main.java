@@ -1,9 +1,12 @@
 import java.util.Scanner;
 
-class Main {
- public static void main(String[] args) 
- {
-  Scanner scan = new Scanner(System.in);
+ public class Main {
+ public static void main(String[] args){ 
+ 
+
+ 
+ Scanner scan = new Scanner(System.in);
+
 // this takes in the costmers information and pass it through the code.
   System.out.println("What is your name");
   String name = scan.next();
@@ -13,11 +16,10 @@ class Main {
   int birthYear = scan.nextInt();
  
   int age = getLove(birthYear, currentYear);
-// this takes a qoute and puts into an output 
   
   System.out.println("You enounterd true love in year was I right?" + age);
   
-  ;
+
 
  }
 
@@ -28,5 +30,9 @@ class Main {
  int love = birthMonth - currentYear;
  return love;
  }
-  
+  thank();
+
+   static void thank(){
+    System.out.print("Thank you for trying out my love guesser app");
+  } 
 }
