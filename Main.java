@@ -8,6 +8,7 @@ import java.util.Scanner;
  Scanner scan = new Scanner(System.in);
 
 // this takes in the costmers information and pass it through the code.
+  
   System.out.println("What is your name");
   String name = scan.next();
   System.out.println("What year is it");
@@ -19,7 +20,7 @@ import java.util.Scanner;
   
   System.out.println("You enounterd true love in year was I right?" + age);
   
-
+ thank();
 
  }
 
@@ -30,7 +31,7 @@ import java.util.Scanner;
  int love = birthMonth - currentYear;
  return love;
  }
-  thank();
+  
 
    static void thank(){
     System.out.print("Thank you for trying out my love guesser app");
