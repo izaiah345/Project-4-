@@ -20,7 +20,7 @@ import java.util.Scanner;
   
   System.out.println("You enounterd true love in year was I right?" + age);
 // Thank is a return type that gives back a thank you.
- thank(name);
+ System.out.println(thank(name));
 
  }
 
